@@ -1,1 +1,221 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.tophead {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: vh;
+  background-color: #442694;
+}
+.tophead nav {
+  width: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.tophead a {
+  padding-left: 4%;
+  padding-right: 4%;
+  color: floralwhite;
+}
+.tophead .name {
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  color: floralwhite;
+}
+.tophead h1 {
+  font-size: 3rem;
+}
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  letter-spacing: 5px;
+  padding: 3%;
+  height: 40vh;
+  background-color: #442694;
+}
+.section2 img {
+  width: 30%;
+  border: 4px solid goldenrod;
+  padding: 2%;
+}
+.section2 .intro {
+  width: 65%;
+  color: floralwhite;
+  text-align: center;
+  padding-top: 3%;
+  border: 4px solid goldenrod;
+  padding: 2%;
+}
+.section2 h2 {
+  font-size: 2rem;
+}
+.section2 p {
+  padding-top: 5%;
+}
+.section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  letter-spacing: 5px;
+  padding: 5%;
+  height: 40vh;
+  background-color: #442694;
+}
+.section3 .skills {
+  width: 65%;
+  color: floralwhite;
+  text-align: center;
+  padding-top: 3%;
+  border: 4px solid goldenrod;
+  padding: 2%;
+}
+.section3 .experience {
+  width: 30%;
+  color: floralwhite;
+  text-align: center;
+  padding-top: 3%;
+  border: 4px solid goldenrod;
+  padding: 2%;
+}
+.section3 p {
+  padding-top: 5%;
+}
+.bottom {
+  color: floralwhite;
+  background-color: #442694;
+}
